@@ -1,9 +1,8 @@
 # GIT E GITHUB
 
-## Git
-### Versionamento de arquivos
+## Git (Versionamento de arquivos)
 
-## COMO FUNCIONA
+### COMO FUNCIONA
 
 Imagine que seu codigo tenha uma linha do tempo, e que nessa linha do tempo, existem pontos na história que podem ser visitados novamente.
 
@@ -17,6 +16,8 @@ O Git faz exatamente isto, ele serve para criar versões dos seus código para q
 - Porém tudo isto deve estar dentro de um ambiente que chamamos de _`repository`_ (repostório).
 - O repositório é a aplicação do Git no seu projeto, porém, o Git só cria um repositorio local na sua maquina, devemos aplicar uma maior segurança e para isso utilizamos do _`GitHub`_ para realizar o armazenamento em nuvem do seu repositório. E além disso podemos fazer o sincronismo entre a nuvem e o seu _`local repo_`, para aplicar alterações de seus colegas que também tem acesso a este _`remote repo`_
 
+![](../../assets/git_github_map.png)
+
 ## Instalação
 
 - Windows:
@@ -26,3 +27,6 @@ O Git faz exatamente isto, ele serve para criar versões dos seus código para q
         git config --global user.name "username"
         git config --global user.email "email@dominio.com"
     ```
+- Linux
+
+- MAC
