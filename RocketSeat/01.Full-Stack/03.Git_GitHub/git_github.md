@@ -18,15 +18,29 @@ O Git faz exatamente isto, ele serve para criar versões dos seus código para q
 
 ![](../../assets/git_github_map.png)
 
-## Instalação
+### Instalação
 
 - Windows:
     - basta acessar o [link](https://git-scm.com/downloads) e seguir com next até finalizar
-    - Configuração: abra o _`Git Bash`_ e execute o seguinte comando
+    - Configuração: abra o _`Git Bash`_ e execute o seguinte comando":
     ```bash example-good
         git config --global user.name "username"
         git config --global user.email "email@dominio.com"
     ```
 - Linux
+    - basta executar o seguinte comando no terminal `apt-get install git` 
+    - Configuração: no próprio terminal execute o seguinte comando:
+    ```bash example-good
+        git config --global user.name "username"
+        git config --global user.email "email@dominio.com"
+    ```
+### Comando uteis
 
-- MAC
+- ***git init***: Inicia o repositório do seu projeto
+- ***_git status_***: Detalha as alterações feitas no seu projeto
+- ***git add .***: Adiciona todos os arquivos e pastas no _stage area_
+    - É possivel fazer o add de 1 pasta inteira acessando ela
+- ***git restore <file>***: Recupera o conteudo de um arquivo na _stage area_ que ainda não foi _commitado_
+- ***git commit -m "mensagem"***: Cria e descreve um ponto na historia
+- ***git log***: Histótico de commits do projeto
+- ***git rm --cached <file>***: Remove pastas ou arquivos do _stage area_
