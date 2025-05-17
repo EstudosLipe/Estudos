@@ -44,6 +44,8 @@ form header input{
 }
 form ul{
     width: 500px;
+    height: 300px;
+    overflow-y: auto;
     list-style-type: none;
     display: flex;
     flex-direction: column;
