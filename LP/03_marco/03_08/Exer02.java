@@ -6,7 +6,7 @@ public class Exer02 {
         String nome = sc.next();
         int vogais[] = new int[5], i = 0;
         char vogaisChar[] = { 'a', 'e', 'i', 'o', 'u' };
-
+        sc.close();
         for (i = 0; i < vogais.length; i++) {
             switch (nome.charAt(i)) {
                 case 'A':

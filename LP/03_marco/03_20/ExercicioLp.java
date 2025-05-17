@@ -11,9 +11,9 @@ public class ExercicioLp{
 
         System.out.println();
 
-        // for(i=3; i<9; i++){
-        //     teste2.append(i+"c ");
-        //     System.out.print(teste2);
-        // }
+        for(i=3; i<9; i++){
+            teste2.append(i+"c ");
+            System.out.print(teste2);
+        }
     }
 }

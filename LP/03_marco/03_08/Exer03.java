@@ -7,5 +7,6 @@ public class Exer03 {
         String nome = sc.next();
         nome = nome.replace('a', '*');
         System.out.println(nome);
+        sc.close();
     }
 }

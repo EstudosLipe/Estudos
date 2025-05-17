@@ -5,9 +5,9 @@ public class Histograma {
         Scanner sc = new Scanner(System.in);
 
         String frase = sc.nextLine();
-        int vogaisCount[] = new int[5], i = 0, j=0;
-        char vogais[] = {'a','e','i','o','u'};
-
+        int vogaisCount[] = new int[5], i = 0, j = 0;
+        char vogais[] = { 'a', 'e', 'i', 'o', 'u' };
+        sc.close();
         for (i = 0; i < frase.length(); i++) {
             switch (frase.charAt(i)) {
                 case 'A':
@@ -32,15 +32,14 @@ public class Histograma {
                     break;
             }
         }
-        
-        for(i=0; i<vogais.length; i++){
-            System.out.print(vogais[i]+": ");
-            for(j=0; j<vogaisCount[i]; j++){
+
+        for (i = 0; i < vogais.length; i++) {
+            System.out.print(vogais[i] + ": ");
+            for (j = 0; j < vogaisCount[i]; j++) {
                 System.out.print("*");
             }
-            System.out.print(" ("+vogaisCount[i]+")\n");
+            System.out.print(" (" + vogaisCount[i] + ")\n");
         }
 
-        sc.close();
     }
 }
